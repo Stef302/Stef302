@@ -1,0 +1,18 @@
+{
+  "id": "P-01",
+  "title": "RUNWAY",
+  "tagline": "Shader temps réel · Maison de mode",
+  "year": "2026",
+  "desc": "Expérience shader temps réel pour une maison de mode : tissu simulé en fragment shader, post-processing volumétrique, caméra orbitale inertielle. Livrée en un seul fichier, 380 ko.",
+  "img": "https://picsum.photos/seed/stef-runway-shader/1000/720",
+  "link": "https://example.com/runway-demo",
+  "stamp": "CLIENT · LIVE",
+  "role": "Lead Creative Dev",
+  "flip": false,
+  "tags": ["GLSL", "WebGL2", "Post-FX"],
+  "metrics": [
+    {"value": "120", "label": "FPS"},
+    {"value": "380", "label": "KO"},
+    {"value": "1.2M", "label": "SESSIONS"}
+  ]
+}
