@@ -318,8 +318,6 @@ body.revealed .hero-title .line:nth-child(4) > span{transform:none;transition-de
 .tr-sent h3{font-family:var(--disp);font-size:1.6rem;text-transform:uppercase;color:var(--ink);margin-bottom:.8rem}
 .tr-sent p{color:var(--dim);font-size:.95rem}
 .tr-sent .actions{margin-top:1.4rem;display:flex;gap:.8rem;flex-wrap:wrap}
-.mail-note{margin-top:1.6rem;font-family:var(--mono);font-size:10px;letter-spacing:.08em;color:var(--dim);line-height:1.8;border-top:1px dashed var(--line);padding-top:12px}
-.mail-note b{color:var(--ink);font-weight:500}
 
 footer{border-top:1px solid var(--line);position:relative;z-index:2;background:var(--bg)}
 .foot-marquee{overflow:hidden;border-bottom:1px solid var(--line);padding:clamp(2rem,5vw,4rem) 0}
@@ -578,8 +576,7 @@ footer{border-top:1px solid var(--line);position:relative;z-index:2;background:v
       </form>
       <div class="tr-sent" id="trSent" hidden>
         <h3>✅ Transmission envoyée</h3>
-        <p>Votre message a été envoyé directement à <b style="color:var(--ink)">stefansachel@gmail.com</b> via le serveur FormSubmit. Je reviens vers vous sous 48h.</p>
-        <p class="mail-note"><b>Note :</b> au tout premier envoi depuis ce domaine, FormSubmit vous demandera de cliquer un lien de confirmation dans un mail reçu à <code>stefansachel@gmail.com</code>. Après cette unique activation, tous les messages arrivent directement.</p>
+        <p>Votre message a été envoyé directement à <b style="color:var(--ink)">stefansachel@gmail.com</b> via FormSubmit. Je reviens vers vous sous 48h.</p>
         <div class="actions">
           <button class="btn ghosted" id="trAgain" type="button">ENVOYER UN AUTRE MESSAGE</button>
           <a class="btn" href="#" data-mail>✉ MAILTO DIRECT (SECOURS)</a>
@@ -603,7 +600,7 @@ footer{border-top:1px solid var(--line);position:relative;z-index:2;background:v
   </div>
   <div class="foot-base">
     <span>© 2026 STEF_302 (STEFAN) — LYCÉEN & CREATIVE TECHNOLOGIST</span>
-    <span>BUILD 5.4 · CLEAN · 1 FILE</span>
+    <span>BUILD 5.5 · FINAL · 1 FILE</span>
   </div>
 </footer>
 
@@ -616,10 +613,12 @@ footer{border-top:1px solid var(--line);position:relative;z-index:2;background:v
 /* ============================================
    📝 CONFIG PUBLIQUE
    ============================================ */
-const CONTACT_EMAIL = 'stefansachel@gmail.com';  // ← ton email (reçoit les messages)
+const CONTACT_EMAIL = 'stefansachel@gmail.com';
 const MANIFEST_FILES = [
-  // 'projet-1.json',
-  // 'projet-2.json',
+  'projet-1.json',
+  'projet-2.json',
+  'projet-3.json',
+  'projets-batch.json',
 ];
 /* 🔒 PRIVÉ — jamais affiché à l'écran */
 const BIRTH_DATE = new Date('2011-01-28T15:30:00');
@@ -632,7 +631,6 @@ const clamp = (v,a,b) => Math.min(b,Math.max(a,v));
 const sleep = ms => new Promise(r=>setTimeout(r,ms));
 const rnd = (a,b) => a + Math.random()*(b-a);
 
-/* email injecté partout (source unique) */
 $$('[data-mail]').forEach(a=>{
   a.href = 'mailto:'+CONTACT_EMAIL;
   if(a.dataset.mail==='text') a.textContent = CONTACT_EMAIL;
@@ -645,7 +643,6 @@ function toast(msg, err){
   setTimeout(()=>{t.style.opacity='0'; t.style.transition='opacity .4s'; setTimeout(()=>t.remove(),420);},3200);
 }
 
-/* ========== ÂGE LIVE 50 DÉCIMALES ========== */
 const BIRTH_MS = BIRTH_DATE.getTime();
 const MS_PER_YEAR = 365.2425 * 24 * 60 * 60 * 1000;
 let rewUntil = 0; const REW_SPAN = 1400;
@@ -660,7 +657,6 @@ function updateAge(){
 }
 updateAge(); setInterval(updateAge, 16);
 
-/* ========== CURSOR + ÉTINCELLES ========== */
 const cursor = $('#cursor');
 const sparks = [];
 if(matchMedia('(pointer:fine)').matches && !RM){
@@ -703,7 +699,6 @@ if(matchMedia('(pointer:fine)').matches && !RM){
   requestAnimationFrame(sparkLoop);
 })();
 
-/* ========== SONS ========== */
 function boom(){
   try{
     const AC = window.AudioContext||window.webkitAudioContext;
@@ -738,7 +733,6 @@ function suck(){
   }catch(e){}
 }
 
-/* ========== SÉQUENCE : CV → FISSURES → DÉTONATION ========== */
 const intro0 = $('#intro');
 const INTRO_HTML = intro0 ? intro0.outerHTML : '';
 let phase = 0, timers = [], detonated = false, mode = 'cv';
@@ -891,11 +885,10 @@ function detonate(){
   later(()=>{ const sl=$('#slam'); if(sl) sl.remove(); }, 2400);
 }
 
-/* ========== ⏪ REMONTER LE TEMPS ========== */
 function rewind(){
   if(mode!=='site' || RM) return;
   mode='cv'; clearTimers();
-  document.body.classList.add('rew','rew-cursor-off'); /* ← cache le curseur custom pendant le rewind */
+  document.body.classList.add('rew','rew-cursor-off');
   document.body.classList.remove('revealed');
   rewUntil = performance.now() + REW_SPAN;
   suck();
@@ -948,7 +941,6 @@ function finishRewind(wrap){
   later(()=>{ const ck=$('#cracks'); if(ck) ck.remove(); }, 700);
   later(()=>{
     document.body.classList.remove('rew');
-    /* curseur custom reste OFF quand on est sur le CV (fond clair) — il reviendra après la prochaine détonation */
     toast('⏪ TEMPS REMONTÉ — CV restauré');
   }, 900);
 }
@@ -962,7 +954,6 @@ if(!RM && intro0){
   $('#skipIntro').addEventListener('click', ()=>{ clearInterval(microI); if(!detonated) detonate(); });
 }else if(intro0){ intro0.remove(); document.body.classList.add('revealed'); }
 
-/* ========== REVEAL + SCRAMBLE ========== */
 const CH='█▓▒░<>/[]{}#01=+*∞Σπ';
 function scramble(el){
   const text=el.dataset.final||el.textContent; el.dataset.final=text;
@@ -986,7 +977,6 @@ $$('.rv, .p-card').forEach(el=>io.observe(el));
 
 ['marqueeTrack','mathTrack','footTrack'].forEach(id=>{const t=document.getElementById(id); if(t) t.innerHTML+=t.innerHTML;});
 
-/* ========== FOND SHADER ========== */
 const canvas=$('#gl'); let gl=canvas.getContext('webgl',{antialias:false,alpha:false});
 let uT,uR,uM,uK,kick=0; const startTime=performance.now();
 const mouse={x:0,y:0,tx:0,ty:0};
@@ -1047,7 +1037,6 @@ gl_FragColor=vec4(col,1.);}`;
   }catch(e){ gl=null; }
 }
 
-/* ========== STACK + TILT ========== */
 function bindTilt(card){
   if(RM||!matchMedia('(pointer:fine)').matches) return;
   const b=card.querySelector('.pc-body'); if(!b) return;
@@ -1070,7 +1059,6 @@ function updateStack(){
 }
 addEventListener('scroll',updateStack,{passive:true});
 
-/* ========== JSON ========== */
 function slug(s){return (s||'project').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,32)||'project';}
 function escA(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;');}
 function buildCard(p,idx){
@@ -1127,7 +1115,6 @@ async function loadManifests(){
 }
 loadManifests();
 
-/* ========== FORM → FORMSUBMIT.CO (envoi silencieux, sans serveur) ========== */
 $('#trForm').addEventListener('submit',async e=>{
   e.preventDefault();
   const f=e.target;
@@ -1158,7 +1145,6 @@ $('#trForm').addEventListener('submit',async e=>{
       throw new Error(data.message||'Erreur serveur');
     }
   }catch(err){
-    /* Fallback mailto si le fetch échoue (CORS, réseau, etc.) */
     const subject=`[PORTFOLIO 302] ${f.type.value} — ${f.nom.value.trim()}`;
     const body=[
       `Nom : ${f.nom.value.trim()}`,
