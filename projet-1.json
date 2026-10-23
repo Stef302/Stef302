@@ -1,18 +1,18 @@
 {
   "id": "P-01",
-  "title": "RUNWAY",
-  "tagline": "Shader temps réel · Maison de mode",
-  "year": "2026",
-  "desc": "Expérience shader temps réel pour une maison de mode : tissu simulé en fragment shader, post-processing volumétrique, caméra orbitale inertielle. Livrée en un seul fichier, 380 ko.",
-  "img": "https://picsum.photos/seed/stef-runway-shader/1000/720",
-  "link": "https://example.com/runway-demo",
-  "stamp": "CLIENT · LIVE",
-  "role": "Lead Creative Dev",
+  "title": "Volt",
+  "tagline": "Bloc notes Volt secure",
+  "year": "2024",
+  "desc": "Vault. Notes. P2P. Chiffrées. Un coffre-fort de notes de bout en bout, partageables pair-à-pair sans cloud intermédiaire, avec authentificateur TOTP, backup Google Drive et agent IA — le tout embarqué dans une app mobile native (Capacitor) et une PWA.",
+  "img": "https://volt-578e3.web.app/volt.jpg",
+  "link": "https://volt-578e3.web.app/",
+  "stamp": "Volt · LIVE",
+  "role": "Créateur",
   "flip": false,
-  "tags": ["GLSL", "WebGL2", "Post-FX"],
+  "tags": ["Html", "Secure", "Crypt"],
   "metrics": [
     {"value": "120", "label": "FPS"},
-    {"value": "380", "label": "KO"},
-    {"value": "1.2M", "label": "SESSIONS"}
+    {"value": "Plateform", "label": "Android,Web, Windows"},
+    {"value": "1.0k", "label": "Views"}
   ]
 }
