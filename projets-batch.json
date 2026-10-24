@@ -198,6 +198,42 @@
     ]
   },
   {
+    "id": "P-12",
+    "title": "volt-feed",
+    "tagline": "Flux RSS public Volt",
+    "year": "unknown",
+    "desc": "Flux RSS public et automatisé pour les actualités Volt. Projet orienté publication, contenu et synchronicité de données à partir d’un canal de diffusion structuré.",
+    "img": "https://github.com/Stef302/volt-feed",
+    "link": "https://github.com/Stef302/volt-feed",
+    "stamp": "Repo · GitHub",
+    "role": "Créateur",
+    "flip": false,
+    "tags": ["RSS", "News", "Automation"],
+    "metrics": [
+      {"value": "RSS", "label": "Format"},
+      {"value": "Volt", "label": "Brand"},
+      {"value": "Auto", "label": "Update"}
+    ]
+  },
+  {
+    "id": "P-13",
+    "title": "volt-privacy-policy",
+    "tagline": "Politique de confidentialité Volt",
+    "year": "unknown",
+    "desc": "Page de politique de confidentialité pour Volt. Projet de transparence, sécurité et conformité sur la gestion des données utilisateur, dans une logique de responsabilité numérique.",
+    "img": "https://github.com/Stef302/volt-privacy-policy",
+    "link": "https://github.com/Stef302/volt-privacy-policy",
+    "stamp": "Repo · GitHub",
+    "role": "Créateur",
+    "flip": false,
+    "tags": ["Privacy", "Security", "Legal"],
+    "metrics": [
+      {"value": "HTML", "label": "Stack"},
+      {"value": "Privacy", "label": "Focus"},
+      {"value": "Compliance", "label": "Aspect"}
+    ]
+  },
+  {
     "id": "P-14",
     "title": "Stef302",
     "tagline": "Profil GitHub / page perso",
