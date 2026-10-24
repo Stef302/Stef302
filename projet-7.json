@@ -1,0 +1,18 @@
+{
+  "id": "P-07",
+  "title": "kademlia",
+  "tagline": "DHT Python asynchrone",
+  "year": "unknown",
+  "desc": "Projet réseau distribué en Python autour d’un DHT asynchrone. Il s’inscrit dans le domaine des systèmes pair-à-pair, des protocoles décentralisés et des architectures de partage distribué.",
+  "img": "https://github.com/Stef302/kademlia",
+  "link": "https://github.com/Stef302/kademlia",
+  "stamp": "Repo · GitHub",
+  "role": "Créateur",
+  "flip": false,
+  "tags": ["Python", "P2P", "Asyncio"],
+  "metrics": [
+    {"value": "DHT", "label": "Concept"},
+    {"value": "Asyncio", "label": "Runtime"},
+    {"value": "P2P", "label": "Network"}
+  ]
+}

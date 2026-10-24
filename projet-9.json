@@ -1,0 +1,18 @@
+{
+  "id": "P-09",
+  "title": "multipleWindow3dScene",
+  "tagline": "Scène 3D synchronisée entre fenêtres",
+  "year": "unknown",
+  "desc": "Démonstration technique de synchronisation d’une scène 3D entre plusieurs fenêtres avec stockage local. Très intéressant pour un concept de collaboration locale ou d’état partagé.",
+  "img": "https://github.com/Stef302/multipleWindow3dScene",
+  "link": "https://github.com/Stef302/multipleWindow3dScene",
+  "stamp": "Repo · GitHub",
+  "role": "Créateur",
+  "flip": false,
+  "tags": ["Three.js", "3D", "LocalStorage"],
+  "metrics": [
+    {"value": "3D", "label": "Core"},
+    {"value": "Multi-window", "label": "Pattern"},
+    {"value": "Demo", "label": "Type"}
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "P-06",
+  "title": "harpok",
+  "tagline": "Projet web front / design site",
+  "year": "unknown",
+  "desc": "Repository de type front-end visuel, probablement dédié à une page de marque, un site de produit ou une interface légère. Le point fort est la direction artistique et la présentation.",
+  "img": "https://github.com/Stef302/harpok",
+  "link": "https://github.com/Stef302/harpok",
+  "stamp": "Repo · GitHub",
+  "role": "Créateur",
+  "flip": false,
+  "tags": ["Html", "Design", "Frontend"],
+  "metrics": [
+    {"value": "HTML", "label": "Stack"},
+    {"value": "Brand", "label": "Style"},
+    {"value": "Front", "label": "Layer"}
+  ]
+}

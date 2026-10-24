@@ -1,0 +1,18 @@
+{
+  "id": "P-14",
+  "title": "Stef302",
+  "tagline": "Profil GitHub / page perso",
+  "year": "unknown",
+  "desc": "Repository principal de profil GitHub utilisé comme page personnelle, portfolio ou point d’entrée visuel pour présenter les projets et la direction artistique du créateur.",
+  "img": "https://github.com/Stef302/Stef302",
+  "link": "https://github.com/Stef302/Stef302",
+  "stamp": "Repo · GitHub",
+  "role": "Créateur",
+  "flip": false,
+  "tags": ["Profile", "Portfolio", "Html"],
+  "metrics": [
+    {"value": "1", "label": "Profile"},
+    {"value": "HTML", "label": "Stack"},
+    {"value": "Portfolio", "label": "Type"}
+  ]
+}

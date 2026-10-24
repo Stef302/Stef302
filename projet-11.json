@@ -1,0 +1,18 @@
+{
+  "id": "P-11",
+  "title": "Taverne sonore",
+  "tagline": "Mon app musicale / expérience",
+  "year": "unknown",
+  "desc": "Application personnelle centrée sur l’audio, la musique ou une expérience sonore immersive. Le projet met en avant la création d’un environnement audio plus personnel et narratif.",
+  "img": "https://github.com/Stef302/Taverne-sonore-by-stefan",
+  "link": "https://github.com/Stef302/Taverne-sonore-by-stefan",
+  "stamp": "Repo · GitHub",
+  "role": "Créateur",
+  "flip": true,
+  "tags": ["TypeScript", "Audio", "App"],
+  "metrics": [
+    {"value": "TS", "label": "Langage"},
+    {"value": "Audio", "label": "Focus"},
+    {"value": "App", "label": "Format"}
+  ]
+}

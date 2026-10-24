@@ -1,0 +1,18 @@
+{
+  "id": "P-13",
+  "title": "volt-privacy-policy",
+  "tagline": "Politique de confidentialité Volt",
+  "year": "unknown",
+  "desc": "Page de politique de confidentialité pour Volt. Projet de transparence, sécurité et conformité sur la gestion des données utilisateur, dans une logique de responsabilité numérique.",
+  "img": "https://github.com/Stef302/volt-privacy-policy",
+  "link": "https://github.com/Stef302/volt-privacy-policy",
+  "stamp": "Repo · GitHub",
+  "role": "Créateur",
+  "flip": false,
+  "tags": ["Privacy", "Security", "Legal"],
+  "metrics": [
+    {"value": "HTML", "label": "Stack"},
+    {"value": "Privacy", "label": "Focus"},
+    {"value": "Compliance", "label": "Aspect"}
+  ]
+}

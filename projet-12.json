@@ -1,0 +1,18 @@
+{
+  "id": "P-12",
+  "title": "volt-feed",
+  "tagline": "Flux RSS public Volt",
+  "year": "unknown",
+  "desc": "Flux RSS public et automatisé pour les actualités Volt. Projet orienté publication, contenu et synchronicité de données à partir d’un canal de diffusion structuré.",
+  "img": "https://github.com/Stef302/volt-feed",
+  "link": "https://github.com/Stef302/volt-feed",
+  "stamp": "Repo · GitHub",
+  "role": "Créateur",
+  "flip": false,
+  "tags": ["RSS", "News", "Automation"],
+  "metrics": [
+    {"value": "RSS", "label": "Format"},
+    {"value": "Volt", "label": "Brand"},
+    {"value": "Auto", "label": "Update"}
+  ]
+}

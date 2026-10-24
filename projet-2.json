@@ -1,0 +1,18 @@
+{
+  "id": "P-02",
+  "title": "0x-browser-site",
+  "tagline": "Landing page / site vitrine",
+  "year": "unknown",
+  "desc": "Site vitrine orienté branding, navigation et identité visuelle. Conçu comme une landing page moderne avec un rendu propre et une présentation claire des services ou du concept.",
+  "img": "https://github.com/Stef302/0x-browser-site",
+  "link": "https://github.com/Stef302/0x-browser-site",
+  "stamp": "Repo · GitHub",
+  "role": "Créateur",
+  "flip": false,
+  "tags": ["Html", "Landing", "Web"],
+  "metrics": [
+    {"value": "1", "label": "Repo"},
+    {"value": "HTML", "label": "Stack"},
+    {"value": "Landing", "label": "Type"}
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "P-03",
+  "title": "Agentic-Coding-Framework",
+  "tagline": "Framework d’agent IA pour le coding",
+  "year": "unknown",
+  "desc": "Projet orienté IA agentique et automatisation de tâches de développement. L’idée est de structurer un cadre de travail intelligent capable d’orchestrer plusieurs étapes de conception et d’exécution logicielle.",
+  "img": "https://github.com/Stef302/Agentic-Coding-Framework",
+  "link": "https://github.com/Stef302/Agentic-Coding-Framework",
+  "stamp": "Repo · GitHub",
+  "role": "Créateur",
+  "flip": false,
+  "tags": ["AI", "Automation", "Framework"],
+  "metrics": [
+    {"value": "AI", "label": "Focus"},
+    {"value": "Agent", "label": "Pattern"},
+    {"value": "Code", "label": "Output"}
+  ]
+}

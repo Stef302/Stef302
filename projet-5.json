@@ -1,0 +1,18 @@
+{
+  "id": "P-05",
+  "title": "CNU",
+  "tagline": "Projet web / page institutionnelle",
+  "year": "unknown",
+  "desc": "Projet de site web ou de landing page lié à CNU. Probablement orienté présentation, contenu éditorial ou communication visuelle appliquée à une structure ou une institution.",
+  "img": "https://github.com/Stef302/CNU",
+  "link": "https://github.com/Stef302/CNU",
+  "stamp": "Repo · GitHub",
+  "role": "Créateur",
+  "flip": false,
+  "tags": ["Html", "Website", "Content"],
+  "metrics": [
+    {"value": "HTML", "label": "Stack"},
+    {"value": "Site", "label": "Type"},
+    {"value": "Content", "label": "Focus"}
+  ]
+}

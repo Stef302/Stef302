@@ -1,0 +1,18 @@
+{
+  "id": "P-08",
+  "title": "Mathslesson",
+  "tagline": "Proxy web moderne et jeux",
+  "year": "unknown",
+  "desc": "Projet mélangeant proxification web, expérimentation web et composants interactifs. Le repo semble viser une expérience de navigation publique avec des éléments de jeu ou d’interaction sur la page.",
+  "img": "https://github.com/Stef302/Mathslesson",
+  "link": "https://github.com/Stef302/Mathslesson",
+  "stamp": "Repo · GitHub",
+  "role": "Créateur",
+  "flip": true,
+  "tags": ["JavaScript", "Proxy", "Web"],
+  "metrics": [
+    {"value": "JS", "label": "Langage"},
+    {"value": "Proxy", "label": "Type"},
+    {"value": "Games", "label": "Feature"}
+  ]
+}
