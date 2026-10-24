@@ -12,7 +12,262 @@
   "tags": ["Html", "Secure", "Crypt"],
   "metrics": [
     {"value": "120", "label": "FPS"},
-    {"value": "Plateform", "label": "Android,Web, Windows"},
+    {"value": "Android, Web, Windows", "label": "Plateform"},
     {"value": "1.0k", "label": "Views"}
+  ],
+  "project_count": 13,
+  "projects": [
+    {
+      "id": "P-01",
+      "title": "Volt",
+      "tagline": "Bloc notes Volt secure",
+      "year": "2024",
+      "desc": "Vault. Notes. P2P. Chiffrées. Un coffre-fort de notes de bout en bout, partageables pair-à-pair sans cloud intermédiaire, avec authentificateur TOTP, backup Google Drive et agent IA — le tout embarqué dans une app mobile native (Capacitor) et une PWA.",
+      "img": "https://volt-578e3.web.app/volt.jpg",
+      "link": "https://volt-578e3.web.app/",
+      "stamp": "Volt · LIVE",
+      "role": "Créateur",
+      "flip": false,
+      "tags": ["Html", "Secure", "Crypt"],
+      "metrics": [
+        {"value": "120", "label": "FPS"},
+        {"value": "Android, Web, Windows", "label": "Plateform"},
+        {"value": "1.0k", "label": "Views"}
+      ]
+    },
+    {
+      "id": "P-02",
+      "title": "0x-browser-site",
+      "tagline": "Landing page / site vitrine",
+      "year": "unknown",
+      "desc": "Site vitrine pour un navigateur ou une expérience web centrée sur la navigation, le design et l’interface utilisateur. Projet orienté branding et présentation.",
+      "img": "https://github.com/Stef302/0x-browser-site",
+      "link": "https://github.com/Stef302/0x-browser-site",
+      "stamp": "Repo · GitHub",
+      "role": "Créateur",
+      "flip": false,
+      "tags": ["Html", "Landing", "Web"],
+      "metrics": [
+        {"value": "1", "label": "Repo"},
+        {"value": "HTML", "label": "Stack"},
+        {"value": "Landing", "label": "Type"}
+      ]
+    },
+    {
+      "id": "P-03",
+      "title": "Agentic-Coding-Framework",
+      "tagline": "Framework d’agent IA pour le coding",
+      "year": "unknown",
+      "desc": "Projet orienté IA agentique, probablement un framework ou système d’automatisation de développement assisté par l’IA, avec orchestration de tâches et exécution logicielle.",
+      "img": "https://github.com/Stef302/Agentic-Coding-Framework",
+      "link": "https://github.com/Stef302/Agentic-Coding-Framework",
+      "stamp": "Repo · GitHub",
+      "role": "Créateur",
+      "flip": false,
+      "tags": ["AI", "Automation", "Framework"],
+      "metrics": [
+        {"value": "AI", "label": "Focus"},
+        {"value": "Agent", "label": "Pattern"},
+        {"value": "Code", "label": "Output"}
+      ]
+    },
+    {
+      "id": "P-04",
+      "title": "chronosglobe",
+      "tagline": "Mon app globe",
+      "year": "unknown",
+      "desc": "Application centrée sur une globe ou une visualisation temporelle/interactive. Le projet semble viser une expérience immersive autour d’un monde, d’une carte ou d’une scène dynamique.",
+      "img": "https://github.com/Stef302/chronosglobe",
+      "link": "https://github.com/Stef302/chronosglobe",
+      "stamp": "Repo · GitHub",
+      "role": "Créateur",
+      "flip": true,
+      "tags": ["3D", "UI", "Experience"],
+      "metrics": [
+        {"value": "Globe", "label": "Core"},
+        {"value": "Visual", "label": "Type"},
+        {"value": "App", "label": "Format"}
+      ]
+    },
+    {
+      "id": "P-05",
+      "title": "CNU",
+      "tagline": "Projet web / page institutionnelle",
+      "year": "unknown",
+      "desc": "Projet de site ou de landing page lié à CNU. Structure probablement orientée communication, contenu éditorial ou pages de présentation.",
+      "img": "https://github.com/Stef302/CNU",
+      "link": "https://github.com/Stef302/CNU",
+      "stamp": "Repo · GitHub",
+      "role": "Créateur",
+      "flip": false,
+      "tags": ["Html", "Website", "Content"],
+      "metrics": [
+        {"value": "HTML", "label": "Stack"},
+        {"value": "Site", "label": "Type"},
+        {"value": "Content", "label": "Focus"}
+      ]
+    },
+    {
+      "id": "P-06",
+      "title": "harpok",
+      "tagline": "Projet web front / design site",
+      "year": "unknown",
+      "desc": "Repository HTML probablement lié à un site vitrine, une interface de marque ou une page de produit. Style de projet orienté front-end visuel.",
+      "img": "https://github.com/Stef302/harpok",
+      "link": "https://github.com/Stef302/harpok",
+      "stamp": "Repo · GitHub",
+      "role": "Créateur",
+      "flip": false,
+      "tags": ["Html", "Design", "Frontend"],
+      "metrics": [
+        {"value": "HTML", "label": "Stack"},
+        {"value": "Brand", "label": "Style"},
+        {"value": "Front", "label": "Layer"}
+      ]
+    },
+    {
+      "id": "P-07",
+      "title": "kademlia",
+      "tagline": "DHT Python asynchrone",
+      "year": "unknown",
+      "desc": "Un DHT en Python utilisant asyncio. Projet sérieux, réseau distribué, topologie pair-à-pair, preuve de concepts système et protocoles décentralisés.",
+      "img": "https://github.com/Stef302/kademlia",
+      "link": "https://github.com/Stef302/kademlia",
+      "stamp": "Repo · GitHub",
+      "role": "Créateur",
+      "flip": false,
+      "tags": ["Python", "P2P", "Asyncio"],
+      "metrics": [
+        {"value": "DHT", "label": "Concept"},
+        {"value": "Asyncio", "label": "Runtime"},
+        {"value": "P2P", "label": "Network"}
+      ]
+    },
+    {
+      "id": "P-08",
+      "title": "Mathslesson",
+      "tagline": "Proxy web moderne et jeux",
+      "year": "unknown",
+      "desc": "Un proxy web moderne, rapide, avec des jeux et une expérience utilisateur publique. Projet qui mélange navigation web, contournement de restrictions et amusements interactifs.",
+      "img": "https://github.com/Stef302/Mathslesson",
+      "link": "https://github.com/Stef302/Mathslesson",
+      "stamp": "Repo · GitHub",
+      "role": "Créateur",
+      "flip": true,
+      "tags": ["JavaScript", "Proxy", "Web"],
+      "metrics": [
+        {"value": "JS", "label": "Langage"},
+        {"value": "Proxy", "label": "Type"},
+        {"value": "Games", "label": "Feature"}
+      ]
+    },
+    {
+      "id": "P-09",
+      "title": "multipleWindow3dScene",
+      "tagline": "Scène 3D synchronisée entre fenêtres",
+      "year": "unknown",
+      "desc": "Exemple technique de synchronisation d’une scène 3D sur plusieurs fenêtres avec Three.js et localStorage. Très bon projet de démonstration de partage d’état et de collaboration locale.",
+      "img": "https://github.com/Stef302/multipleWindow3dScene",
+      "link": "https://github.com/Stef302/multipleWindow3dScene",
+      "stamp": "Repo · GitHub",
+      "role": "Créateur",
+      "flip": false,
+      "tags": ["Three.js", "3D", "LocalStorage"],
+      "metrics": [
+        {"value": "3D", "label": "Core"},
+        {"value": "Multi-window", "label": "Pattern"},
+        {"value": "Demo", "label": "Type"}
+      ]
+    },
+    {
+      "id": "P-10",
+      "title": "Rose",
+      "tagline": "Langage de programmation expérimental",
+      "year": "unknown",
+      "desc": "Langage expérimental de programmation écrit en C++. Projet ambitieux de recherche et de création de paradigme ou de syntaxe spécifique.",
+      "img": "https://github.com/Stef302/Rose",
+      "link": "https://github.com/Stef302/Rose",
+      "stamp": "Repo · GitHub",
+      "role": "Créateur",
+      "flip": false,
+      "tags": ["C++", "Compiler", "Language"],
+      "metrics": [
+        {"value": "C++", "label": "Langage"},
+        {"value": "Langage", "label": "Type"},
+        {"value": "Research", "label": "Mood"}
+      ]
+    },
+    {
+      "id": "P-11",
+      "title": "Taverne sonore",
+      "tagline": "Mon app musicale / expérience",
+      "year": "unknown",
+      "desc": "Application personnelle probablement liée à l’audio, au son, ou à un concept d’expérience immersive. Le nom suggère une app de musique ou de culture sonore.",
+      "img": "https://github.com/Stef302/Taverne-sonore-by-stefan",
+      "link": "https://github.com/Stef302/Taverne-sonore-by-stefan",
+      "stamp": "Repo · GitHub",
+      "role": "Créateur",
+      "flip": true,
+      "tags": ["TypeScript", "Audio", "App"],
+      "metrics": [
+        {"value": "TS", "label": "Langage"},
+        {"value": "Audio", "label": "Focus"},
+        {"value": "App", "label": "Format"}
+      ]
+    },
+    {
+      "id": "P-12",
+      "title": "volt-feed",
+      "tagline": "Flux RSS public Volt",
+      "year": "unknown",
+      "desc": "Flux RSS public des actualités Volt, mis à jour automatiquement. Projet de syndication d’actualité, contenu et automatisation de publication.",
+      "img": "https://github.com/Stef302/volt-feed",
+      "link": "https://github.com/Stef302/volt-feed",
+      "stamp": "Repo · GitHub",
+      "role": "Créateur",
+      "flip": false,
+      "tags": ["RSS", "News", "Automation"],
+      "metrics": [
+        {"value": "RSS", "label": "Format"},
+        {"value": "Volt", "label": "Brand"},
+        {"value": "Auto", "label": "Update"}
+      ]
+    },
+    {
+      "id": "P-13",
+      "title": "volt-privacy-policy",
+      "tagline": "Politique de confidentialité Volt",
+      "year": "unknown",
+      "desc": "Page de politique de confidentialité pour Volt. Projet de conformité, sécurité et transparence sur le traitement des données utilisateur.",
+      "img": "https://github.com/Stef302/volt-privacy-policy",
+      "link": "https://github.com/Stef302/volt-privacy-policy",
+      "stamp": "Repo · GitHub",
+      "role": "Créateur",
+      "flip": false,
+      "tags": ["Privacy", "Security", "Legal"],
+      "metrics": [
+        {"value": "HTML", "label": "Stack"},
+        {"value": "Privacy", "label": "Focus"},
+        {"value": "Compliance", "label": "Aspect"}
+      ]
+    },
+    {
+      "id": "P-14",
+      "title": "Stef302",
+      "tagline": "Profil GitHub / page perso",
+      "year": "unknown",
+      "desc": "Repository principal de profil GitHub, probablement utilisé comme page personnelle de présentation, portfolio ou landing page.",
+      "img": "https://github.com/Stef302/Stef302",
+      "link": "https://github.com/Stef302/Stef302",
+      "stamp": "Repo · GitHub",
+      "role": "Créateur",
+      "flip": false,
+      "tags": ["Profile", "Portfolio", "Html"],
+      "metrics": [
+        {"value": "1", "label": "Profile"},
+        {"value": "HTML", "label": "Stack"},
+        {"value": "Portfolio", "label": "Type"}
+      ]
+    }
   ]
 }
